@@ -4,8 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <title>Sim ou não?</title>
+    <title>Sim ou não? - By Krz</title>
 	<style>
 	.btn{
 	}
@@ -33,7 +34,7 @@
         <div class="response hidden">
             <h1 style="color:white;font-size:42px">Uhuuuuuuuul!!!!</h1>
             </div>
-        <footer id="footer">Desenvolvido com <span class="heart">❤</span> por Júnior "Krz"</footer>
+        <footer id="footer">Crie o seu <a href="./create.html">aqui</a> | Desenvolvido com <span class="heart">❤</span> por Júnior "Krz"</footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -83,7 +84,7 @@
                     $(".question").addClass('hidden');
                     $(".response").removeClass('hidden');
                     var footer = document.getElementById("footer");
-                    var audio = new Audio('congratulations.mp3');
+                    var audio = new Audio('mp3/congratulations.mp3');
                     document.body.style.backgroundColor = "green";
                     footer.style.color = "white";
                     audio.play();
