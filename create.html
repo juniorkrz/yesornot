@@ -61,8 +61,7 @@
         var stickerbot_link = document.getElementById("stickerbot_link");
         var encodedText = encodeURIComponent(input.value);
         stickerbot_link.href = "https://wa.me/558173241677?text=/son%20" + encodedText;
-
-        span.textContent = window.location.href.split("yesornot/")[0] + "yesornot/index.html?texto=" + encodedText;
+        span.textContent = window.location.href.split("yesornot/")[0] + "yesornot/?texto=" + encodedText;
         }
         var input = document.getElementById("phrase_input");
         input.addEventListener("input", atualizarSpan);
